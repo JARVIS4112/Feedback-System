@@ -1,0 +1,72 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPageFaculty.master.cs" Inherits="MasterPageFaculty" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            text-align: center;
+            font-size: xx-large;
+            text-decoration: underline;
+            background-color: #00FFFF;
+        }
+        .auto-style2 {
+            width: 100%;
+            height: 242px;
+        }
+        .auto-style3 {
+            background-color: #FFFF99;
+        }
+        .auto-style4 {
+            text-align: center;
+            background-color: #00FFFF;
+        }
+        </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="auto-style1">
+
+        <strong>Welcome to Faculty Page</strong></div>
+    <div>
+        <table class="auto-style2">
+            <tr>
+                <td class="auto-style3">
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                </td>
+            </tr>
+        </table>
+    </div>
+        <div class="auto-style4">
+            <em>Tatyasaheb Kore Institue of Engineering and Technology</em></div>
+
+    </form>
+</body>
+</html>

@@ -1,0 +1,64 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="AdminMasterPage.master.cs" Inherits="AdminMasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+        }
+        .auto-style2 {
+            width: 196px;
+            height: 290px;
+        }
+        .auto-style3 {
+            height: 290px;
+        }
+        .auto-style4 {
+            text-align: center;
+        }
+        .auto-style5 {
+            position: absolute;
+            top: 204px;
+            left: 13px;
+            z-index: 1;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        
+        <table class="auto-style1">
+            <tr>
+                <td class="auto-style4" colspan="2">Welcome Admin</td>
+            </tr>
+            <tr>
+                <td class="auto-style2">
+                    <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Admin_Home.aspx">Home</asp:HyperLink>
+                    <br />
+                    <br />
+                    <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/Admin_Faculty_Register.aspx">Enroll Faculty</asp:HyperLink>
+                    <asp:HyperLink ID="HyperLink3" runat="server" CssClass="auto-style5" NavigateUrl="~/admin_create_feedback.aspx">Create Feedback</asp:HyperLink>
+                    <br />
+                    <br />
+                    <br />
+                </td>
+                <td class="auto-style3">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">&nbsp;</td>
+            </tr>
+        </table>
+        
+    </div>
+    </form>
+</body>
+</html>
