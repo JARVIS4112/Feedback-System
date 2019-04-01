@@ -100,7 +100,7 @@
                 <asp:TextBox ID="start_date_txt" runat="server" CssClass="auto-style24" OnTextChanged="TextBox1_TextChanged" ReadOnly="True"></asp:TextBox>
             </td>
             <td class="auto-style23" rowspan="3">
-                <asp:Calendar ID="Calendar1" runat="server" OnSelectionChanged="Calendar1_SelectionChanged" Visible="False" style="z-index: 1; left: 380px; top: 39px; position: absolute; height: 213px; width: 285px"></asp:Calendar>
+                <asp:Calendar ID="Calendar1" runat="server" OnSelectionChanged="Calendar1_SelectionChanged" Visible="False" style="z-index: 1; left: 383px; top: 39px; position: absolute; height: 213px; width: 285px"></asp:Calendar>
             </td>
         </tr>
         <tr>
